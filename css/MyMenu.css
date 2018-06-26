@@ -1,0 +1,36 @@
+nav {
+  color:white;
+  background-color:#424242;
+}
+
+button {
+  color:white;
+  background-color:#424242;
+}
+
+a {
+  text-decoration: node;
+}
+
+.linkerbutton{
+    background-color: #424242;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #424242 solid 3px;
+    border-radius: 0%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.linkerbutton:hover{
+    background-color: #585858;
+    border-bottom-color: #585858;
+    color:white;
+}
+.linkerbutton:active{
+    background-color: #585858;
+    border-bottom: #8181F7 solid 3px;
+}

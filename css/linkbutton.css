@@ -1,0 +1,12 @@
+.menubutton:link{
+        color:#424242;
+    }
+    .abc:visited{
+        color: red;
+    }
+    .abc:hover{
+        color: #424242;
+    }
+    .abc:active{
+        color:#424242;
+    }
