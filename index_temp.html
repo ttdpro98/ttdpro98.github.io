@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--This is Head tag -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KC Coder</title>
+
+    <!-- This is bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/MyMenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- This is bootstrap js  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <!-- This is Body tag -->
+  <body background="image/background.png" style="background-repeat: no-repeat;  background-position: center center center center; background-size: cover;">
+    <!-- This is Main Menu -->
+    <nav style="position: fixed; top: 0; width: 100%;">
+
+      <div class="container" style="margin-left: 0.5cm;">
+          <div class="row">
+              <!-- Home button -->
+              <div class="col-sm-2">
+                <a  href="/" target="_top">
+                  <button type="button" class="btn btn-default">
+                    <h5><b>KC Coder</b></h5>
+                  </button>
+                </a>
+              </div>
+              <!-- End of Home button -->
+
+              <div class="col-sm-3"> </div>
+
+              <!-- Button groups -->
+              <div class="col-sm-6">
+
+                <!-- This is Problemset button -->
+                <a href="dashboard.html" target="_top" class="linkerbutton">
+                    <i class="fa fa-list" style="color:white">
+                      <b>Problemset</b>
+                    </i>
+                </a>
+
+                <!-- This is Status button -->
+                <a href="/" target="_top" class="linkerbutton">
+                    <i class="fa fa-newspaper-o" style="color:white">
+                      <b>Status</b>
+                    </i>
+                </a>
+
+                <!-- This is Rating button -->
+                <a href="/" target="_top" class="linkerbutton">
+                    <i class="fa fa-cubes" style="color:white">
+                      <b>Rating</b>
+                    </i>
+                </a>
+
+                <!-- This is Contest button -->
+                <a href="/" target="_top" class="linkerbutton">
+                    <i class="fa fa-flag-checkered" style="color:white">
+                      <b>Contest</b>
+                    </i>
+                </a>
+
+                <!-- This is Discuss button -->
+                <a href="/" target="_top" class="linkerbutton">
+                    <i class="fa fa-commenting" style="color:white">
+                      <b>Discuss</b>
+                    </i>
+                </a>
+              </div>
+
+              <!-- This is Log in button -->
+              <div class="col-sm-1" align="right">
+                <div class="dropdown" style="width:185px">
+                  <button type="button" class="btn btn-default dropdown-toggle linkerbutton" data-toggle="dropdown">
+                    <i class="fa fa-power-off" style="color:white">
+                      <b>Log in</b>
+                    </i>
+                  </button>
+                   <!-- This is drop menu -->
+                   <div class="dropdown-menu dropdown-menu-right" style="background-color:#424242;">
+
+                     <form action="/action_page.php" style="margin-left:10px; margin-right:10px">
+                       <!-- Enter email -->
+                       <div class="form-group">
+                         <label for="email" style="color:white">Email:</label>
+                         <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                       </div>
+
+                       <!-- Enter password -->
+                       <div class="form-group">
+                         <label for="pwd" style="color:white">Password:</label>
+                         <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                       </div>
+
+                       <!--Check box -->
+                       <div class="form-group form-check" style="margin-left:10px; margin-right:10px">
+                         <label class="form-check-label" style="color:white">
+                           <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                         </label>
+                       </div>
+
+                       <!--Submit button -->
+                       <button type="submit" class="btn btn-primary" style="color:white; margin:10px; width: 185px">Log in</button>
+                     </form>
+
+                   </div>
+                   <!-- End of drop menu -->
+
+                </div>
+              </div>
+              <!-- End of log in button -->
+          </div>
+      </div>
+    </nav>
+    <!-- End of Main Menu -->
+
+  </body>
+</html>
